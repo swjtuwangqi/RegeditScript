@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+; this script is to add date as format "FileName_Date.zip" after zip file.
+
+[HKEY_CURRENT_USER\Software\WinRAR\Profiles\0]
+"GenerateArcName"=dword:00000001
+"GenerateMask"="_yyyymmdd_hhnnss"
